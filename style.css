@@ -1,10 +1,140 @@
-h1 {
-  color: #000;
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
-  font-size: 24px;
-  font-weight: bold;
+body {
+  background: #e5e5e5;
   margin: 0;
   padding: 0;
-  text-align: center;
+}
+
+#hdr {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-bottom-left-radius: 100px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  background: #fff;
+}
+
+#headline {
+  /* Headline */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: url(img/header-shapes-mobile@2x.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.headline-txt {
+  /* Headline */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 102px 24px 136px;
+  gap: 12px;
+}
+
+.order-0 {
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.order-1 {
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.order-2 {
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.order-3 {
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.txt-1 {
+  /* Header / 2 */
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+}
+
+.txt-2 {
+  /* Body / 2 */
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+}
+
+.txt-3 {
+  /* Body / 2 - Bolder */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+
+  /* Inside auto layout */
+}
+
+.scl-icons {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
 }
