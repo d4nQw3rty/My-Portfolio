@@ -1,7 +1,16 @@
 body {
   background: #e5e5e5;
+  font-family: "poppins" sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.pd-0{
+  padding: 0;
+}
+
+.mrg-0 {
+  margin: 0;
 }
 
 #hdr {
@@ -79,8 +88,6 @@ body {
 
 .txt-1 {
   /* Header / 2 */
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -98,7 +105,6 @@ body {
 
 .txt-2 {
   /* Body / 2 */
-  margin: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -115,7 +121,6 @@ body {
 .txt-3 {
   /* Body / 2 - Bolder */
 
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -134,7 +139,9 @@ body {
   display: flex;
   flex-direction: row;
   list-style: none;
-  padding: 0;
-  margin: 0;
   gap: 20px;
+}
+
+.txt-j {
+text-align: justify;
 }
