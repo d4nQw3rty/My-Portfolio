@@ -25,14 +25,14 @@ body {
   align-items: center;
 }
 
-#hdr {
+#header {
   display: flex;
   flex-direction: column;
   background: #fff;
   border-bottom-left-radius: 100px;
 }
 
-#nav {
+#toolbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -52,6 +52,7 @@ body {
   background-image: url(img/header-shapes-mobile@2x.svg);
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .headline-txt {
@@ -106,9 +107,6 @@ body {
   line-height: 52px;
 
   /* or 130% */
-
-  display: flex;
-  align-items: center;
 
   /* Neutrals/N800 */
 
@@ -225,6 +223,26 @@ body {
   /* Primary/B400 */
 
   color: #6070ff;
+}
+
+.skill-txt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.lng-txt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .scl-icons {
@@ -405,4 +423,81 @@ body {
   /* Primary/B500 */
 
   color: #396df2;
+}
+
+.about {
+  /* About My Self */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 24px;
+  border-top-right-radius: 100px;
+  background-color: #fff;
+}
+
+.top {
+  /* TOP */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+}
+
+.skill {
+  /* Skill List */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+
+.frame-7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 12px;
+}
+
+.lng-list {
+  /* Langguage List */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px;
+  gap: 12px;
+}
+
+.frame-9 {
+  /* Neutrals/N10 */
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding-left: 12px;
+  gap: 16px;
+  align-items: center;
+}
+
+.separator {
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* Neutrals/N40 */
+
+  background: #dfe1e6;
 }
