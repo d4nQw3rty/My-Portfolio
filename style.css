@@ -1,11 +1,11 @@
 body {
   background: #e5e5e5;
-  font-family: "poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.pd-0{
+.pd-0 {
   padding: 0;
 }
 
@@ -143,5 +143,5 @@ body {
 }
 
 .txt-j {
-text-align: justify;
+  text-align: justify;
 }
