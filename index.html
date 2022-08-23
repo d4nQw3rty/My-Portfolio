@@ -196,12 +196,12 @@
         <div class="contact-me-container">
           <h2 class="contact-me-title">Contact me</h2>
           <p class="contact-me-paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-          <form action="https://formspree.io/f/xnqwkwnk" method="post" class="contact-form">
-            <input type="text" name="name" id="name-input" maxlength="30" required>
-            <input type="email" name="email" id="email-input" required>
-            <textarea name="message" id="text-message" cols="30" rows="6" maxlength="500" required></textarea>
-            <div class="contact-me-button">
-              <button type="submit" class="mobile-btn">Get in Touch</button>
+          <form action="https://formspree.io/f/xnqwkwnk" method="post" class="contact-me-form" >
+            <input type="text" name="name" id="name-input" maxlength="30" class="input" placeholder="Full name" required>
+            <input type="email" name="email" id="email-input" class="input" placeholder="Email address" required >
+            <textarea name="message" id="text-message" cols="30" rows="6" class="input" maxlength="500" required placeholder="Write your message here"></textarea>
+            <div>
+              <button type="submit" class="mobile-btn mobile-btn-txt">Get in Touch</button>
             </div>
           </form>
         </div>
