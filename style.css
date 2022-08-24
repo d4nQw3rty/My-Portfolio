@@ -614,3 +614,34 @@ body {
 
   color: #172b4d;
 }
+
+@media only screen and (max-width: 768px) {
+  #menu-lst {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #btn-menu {
+    display: none;
+  }
+
+  #toolbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    padding: 26px 10.7%;
+  }
+
+  #menu-lst {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 32px;
+  }
+}
