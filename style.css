@@ -644,4 +644,19 @@ body {
     padding: 0;
     gap: 32px;
   }
+
+  .menu-lst-txt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+  }
+
+  .menu-lst-txt a {
+    text-decoration: none;
+  }
 }
