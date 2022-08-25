@@ -640,7 +640,7 @@ button {
 }
 
 .h1-animation {
-  animation: h1-animation 2s ease-in;
+  animation: h1-animation 1s ease-in;
   animation-name: slide-in;;
 }
 img{
@@ -652,8 +652,8 @@ img:hover{
 
 @keyframes slide-in {
   from {
-    margin-left: 100%;
-    width: 300%;
+    margin-left: 50%;
+    width: 80%;
   }
 
   to {
