@@ -641,12 +641,14 @@ button {
 
 .h1-animation {
   animation: h1-animation 1s ease-in;
-  animation-name: slide-in;;
+  animation-name: slide-in;
 }
-img{
+
+img {
   transition: all 1s ease-in;
 }
-img:hover{
+
+img:hover {
   transform: scale(1.05);
 }
 
