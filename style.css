@@ -12,6 +12,11 @@ body {
   overflow-x: hidden;
 }
 
+.overflow {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .pd-0 {
   padding: 0;
 }
@@ -632,7 +637,7 @@ body {
     flex-direction: row;
     align-items: center;
     position: fixed;
-    width: -webkit-fill-available;
+    width: 77.5%;
     justify-content: space-between;
     padding: 26px 12%;
   }
