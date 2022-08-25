@@ -631,6 +631,37 @@ button {
   transition: all 0.5s ease-in;
 }
 
+#mylogo {
+  transition: all 1s ease-in;
+}
+
+#mylogo:hover {
+  transform: rotate(360deg);
+}
+
+.h1-animation {
+  animation: h1-animation 2s ease-in;
+  animation-name: slide-in;;
+}
+img{
+  transition: all 1s ease-in;
+}
+img:hover{
+  transform: scale(1.05);
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   #btn-menu {
     display: none;
