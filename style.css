@@ -152,7 +152,7 @@ body {
 
   /* Primary/B300 */
 
-  color: #7f8cff;
+  color: #352EFF;
 
   /* Inside auto layout */
 }
@@ -234,7 +234,7 @@ body {
 
   /* Primary/B400 */
 
-  color: #6070ff;
+  color: #0019FA;
 }
 
 .skill-txt {
@@ -522,7 +522,7 @@ body {
 .contact-me {
   display: flex;
   flex-direction: column;
-  background: #6070ff;
+  background: #0018F0;
   border-top-left-radius: 100px;
 }
 
