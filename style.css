@@ -652,6 +652,64 @@ img:hover {
   transform: scale(1.05);
 }
 
+#overlay {
+  /* Overlay */
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  /* Theme 1 / Primary Colors 2 */
+
+  background-color: rgba(96, 112, 255);
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(6px);
+}
+
+#close-mobile-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  margin-top: 48px;
+  margin-right: 24px;
+}
+
+#mobile-menu-list {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0 16px 0 16px;
+  margin: 0 12px 0 12px;
+  gap: 8px;
+  z-index: 1;
+}
+
+#mobile-menu-list li {
+  /* Theme 1 / H3 */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* or 138% */
+
+  display: flex;
+  align-items: center;
+
+  /* Theme 1 / Neutrals 11 */
+}
+
+#mobile-menu-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
 @keyframes slide-in {
   from {
     margin-left: 50%;
