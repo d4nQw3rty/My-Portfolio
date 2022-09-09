@@ -14,11 +14,11 @@ for (let i = 0; i < closeMenu.length; i += 1) {
   closeMenu[i].addEventListener('click', closeMobileMenu);
 }
 
-const projectInfo =[
+const projectInfo = [
   {
-    id:1,
-    mImg:'img/mobile-cards-img/Snapshoot-Portfolio-card-1.png',
-    dImg:'img/desktop-version/Portoflio-Card/Snapshoot-Portfolio-desktop-01.png',
+    id: 1,
+    mImg: 'img/mobile-cards-img/Snapshoot-Portfolio-card-1.png',
+    dImg: 'img/desktop-version/Portoflio-Card/Snapshoot-Portfolio-desktop-01.png',
     orderA: 0,
     orderB: 1,
     title1: 'Tonic',
@@ -35,12 +35,12 @@ const projectInfo =[
     css: 'css',
     js: 'JavaScript',
     modal1: '#',
-    onOff: '#'
+    onOff: '#',
 
   },
   {
-    id:2,
-    mImg:'img/mobile-cards-img/Snapshoot-Portfolio-card-2.png',
+    id: 2,
+    mImg: 'img/mobile-cards-img/Snapshoot-Portfolio-card-2.png',
     dImg: 'img/desktop-version/Portoflio-Card/Snapshoot-Portfolio-desktop-02.png',
     orderA: 1,
     orderB: 0,
@@ -58,11 +58,11 @@ const projectInfo =[
     css: 'css',
     js: 'JavaScript',
     modal1: '#',
-    onOff: '#'
+    onOff: '#',
   },
   {
-    id:3,
-    mImg:'img/mobile-cards-img/Snapshoot-Portfolio-card-3.png',
+    id: 3,
+    mImg: 'img/mobile-cards-img/Snapshoot-Portfolio-card-3.png',
     dImg: 'img/desktop-version/Portoflio-Card/Snapshoot-Portfolio-desktop-03.png',
     orderA: 0,
     orderB: 1,
@@ -75,17 +75,17 @@ const projectInfo =[
     year1: '2015',
     year2: '2015',
     p1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    p2: `Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.`,
+    p2: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     html: 'html',
     css: 'css',
     js: 'JavaScript',
     modal1: '#',
-    onOff: '#'
+    onOff: '#',
 
   },
   {
-    id:4,
-    mImg:'img/mobile-cards-img/Snapshoot-Portfolio-card-4.png',
+    id: 4,
+    mImg: 'img/mobile-cards-img/Snapshoot-Portfolio-card-4.png',
     dImg: 'img/desktop-version/Portoflio-Card/Snapshoot-Portfolio-desktop-04.png',
     orderA: 1,
     orderB: 0,
@@ -98,24 +98,20 @@ const projectInfo =[
     year1: '2015',
     year2: '2018',
     p1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    p2: `A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.`,
+    p2: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     html: 'html',
     css: 'css',
     js: 'JavaScript',
     modal1: '#',
-    onOff: '#'
+    onOff: '#',
 
-
-
-  }
+  },
 ];
 
-const cards= document.querySelector('.works');
-
+const cards = document.querySelector('.works');
 
 projectInfo.forEach((item) => {
-
-cards.innerHTML += `<div class="card order-${item.id-1} pd-0 mrg-0" id=${item.id}>
+  cards.innerHTML += `<div class="card order-${item.id - 1} pd-0 mrg-0" id=${item.id}>
 <div class="block-img order-0 dsktp-order-${item.orderA}">
   <img src=${item.mImg} class="mbl-to-hide mbl-crd-img"
     alt="project 1 image">
@@ -149,7 +145,4 @@ cards.innerHTML += `<div class="card order-${item.id-1} pd-0 mrg-0" id=${item.id
   </div>
 </div>
 </div>`;
-
-})
-
-
+});
