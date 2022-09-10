@@ -179,7 +179,6 @@ const emailInput = document.querySelector('#email-input');
 const nameInput = document.querySelector('#name-input');
 const textInput = document.querySelector('#message-input');
 
-
 const formDefault = JSON.parse(localStorage.getItem('Contact'));
 if (formDefault != null) {
   nameInput.value = formDefault.name;
@@ -201,14 +200,12 @@ formCheck.addEventListener('submit', (e) => {
   return false;
 });
 
-
 formCheck.addEventListener('input', () => {
   const name = nameInput.value;
   const mail = emailInput.value;
   const message = textInput.value;
   localStorage.setItem('Contact', JSON.stringify({ name, mail, message }));
 });
-
 
 const cards = document.querySelector('.works');
 
