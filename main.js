@@ -176,6 +176,15 @@ const projectInfo = [
 const formCheck = document.querySelector('#form');
 const errormsg = document.querySelector('#error');
 const emailInput = document.querySelector('#email-input');
+const nameInput = document.querySelector('#name-input');
+const textInput = document.querySelector('#message-input');
+
+const formDefault = JSON.parse(localStorage.getItem('Contact'));
+if (formDefault != null) {
+  nameInput.value = formDefault.name;
+  emailInput.value = formDefault.mail;
+  textInput.value = formDefault.message;
+}
 
 formCheck.addEventListener('submit', (e) => {
   const email = emailInput.value;
@@ -189,6 +198,13 @@ formCheck.addEventListener('submit', (e) => {
   }
   formCheck.submit();
   return false;
+});
+
+formCheck.addEventListener('input', () => {
+  const name = nameInput.value;
+  const mail = emailInput.value;
+  const message = textInput.value;
+  localStorage.setItem('Contact', JSON.stringify({ name, mail, message }));
 });
 
 const cards = document.querySelector('.works');
