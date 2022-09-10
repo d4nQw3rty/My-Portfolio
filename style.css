@@ -644,14 +644,6 @@ button {
   animation-name: slide-in;
 }
 
-img {
-  transition: all 1s ease-in;
-}
-
-img:hover {
-  transform: scale(1.05);
-}
-
 #overlay {
   /* Overlay */
   display: none;
@@ -707,6 +699,171 @@ img:hover {
 
 #mobile-menu-list li a {
   text-decoration: none;
+  color: #fff;
+}
+
+#popUp {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  padding: 60px 16px;
+}
+
+.popUpContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+
+  /* Neutrals/N40 */
+
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.popUpHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.popUpTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popUpWorkList {
+  margin-top: 14px;
+}
+
+.popUpBlockImg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.popUpLst {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popUpBlock2 {
+  margin-top: 12px;
+  gap: 12px;
+}
+
+.popUpLstItem {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  color: #0018f5;
+}
+
+.popUpHide {
+  display: none;
+}
+
+.popUpAction {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px 8px 0 8px;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+
+.popUpActionBtn {
+  display: flex;
+  flex: 1;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+.popUpActionBtn:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.popUpActionBtn:focus {
+  /* Button / Pressed */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+
+  /* Theme 1 / Primary Colors 1 */
+
+  background: #2230d2;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* identical to box height, or 141% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  /* Theme 1 / Neutrals 11 */
+
   color: #fff;
 }
 
@@ -1022,5 +1179,70 @@ img:hover {
 
   .dsktp-align {
     align-self: center;
+  }
+
+  .popUpHide {
+    display: flex;
+  }
+
+  .popUpTxtBlock {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-bottom: 70px;
+    gap: 24px;
+  }
+
+  .popUpBlock1 {
+    width: 69%;
+  }
+
+  .popUpBlock2 {
+    width: 29%;
+    margin-top: 0;
+  }
+
+  .popUpWorkList {
+    margin-top: 16px;
+  }
+
+  .popUpBlockImg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 28px;
+    margin-bottom: 60px;
+  }
+
+  #popUp {
+    padding: 77px 142px;
+  }
+
+  .popUpTop12Bottom20 {
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  .popUpSeparator {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popUpAction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+    margin: 21px 0 0 0;
+    gap: 24px;
+  }
+
+  .popUpTxt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
   }
 }
