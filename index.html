@@ -119,15 +119,16 @@
         <h2 class="contact-me-title">Contact me</h2>
         <p class="contact-me-paragraph dsktp-pd">If you have an application you are interested in developing, a feature
           that you need built or a project that needs coding. I’d love to help with it</p>
-        <form action="https://formspree.io/f/xnqwkwnk" method="post" class="contact-me-form">
+        <form action="https://formspree.io/f/xnqwkwnk" method="post" class="contact-me-form" id="form">
           <label for="name-input"></label>
           <input type="text" name="name" id="name-input" maxlength="30" class="input" placeholder="Full name" required>
           <label for="email-input"></label>
           <input type="email" name="email" id="email-input" class="input" placeholder="Email address" required>
-          <label for="text-message"></label>
-          <textarea name="message" id="text-message" cols="30" rows="6" class="input" maxlength="500" required
+          <label for="message-input"></label>
+          <textarea name="message" id="message-input" cols="30" rows="6" class="input" maxlength="500" required
             placeholder="Write your message here"></textarea>
-          <div class="dsktp-align">
+          <h6 id="error">Error</h6>
+          <div class="dsktp-align checker">
             <button type="submit" class="mobile-btn mobile-btn-txt">Get in Touch</button>
           </div>
         </form>
