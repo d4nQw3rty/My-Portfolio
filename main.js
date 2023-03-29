@@ -267,6 +267,11 @@ projectInfo.forEach((item) => {
 });
 
 const popUp = document.querySelector('#popUp');
+function closePopUp() {
+  popUp.style.display = 'none';
+}
+
+const popUpCloser = document.getElementsByClassName('.PopUpCloser');
 
 function popUpOpen(id) {
   popUp.style.display = 'flex';
@@ -324,11 +329,6 @@ function popUpOpen(id) {
     }
   });
 }
-const popUpCloser = document.getElementsByClassName('.PopUpCloser');
-function closePopUp() {
-  popUp.style.display = 'none';
-}
-popUpCloser.addEventListener('click', closePopUp);
 
 const displayPopUp = document.getElementsByClassName('.displayModal');
-displayPopUp.addEventListener('click', popUpOpen);
+console.log(displayPopUp, popUpOpen, popUpCloser, closePopUp);
