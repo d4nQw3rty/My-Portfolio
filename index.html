@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Danys Linares Portfolio, Full Stack Web Developer">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +17,16 @@
 <body>
   <div id="header">
     <header id="toolbar">
-      <div id="mylogo">
-        <a href="#header"><img src="img/logo_danys_clean.png" alt="Logo" class="image_header"></a>
-      </div>
       <nav id="nav">
+      <div id="mylogo">
+        <a href="#header"><img data-aos="flip-left" data-aos-duration="1000" src="img/logo_danys_clean.png" alt="Logo" class="image_header"></a>
+      </div>
         <div id="btn-menu"><img src="img/Normal-Button/Tertiary/Icons/Icon-Menu.png" alt=""></div>
-        <ul id="menu-lst">
+        <ul
+          id="menu-lst"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          >
           <li><a href="#portfolio" class="menu-lst-txt">Portfolio</a></li>
           <li><a class="menu-lst-txt" href="#About-my-self">About</a></li>
           <li><a class="menu-lst-txt" href="#Contact-Section">Contact</a></li>
@@ -29,17 +35,26 @@
     </header>
     <section id="headline">
       <div class="headline-txt">
-        <h1 class="txt-1 order-0 pd-0 mrg-0 mbl-to-hide h1-animation">I’m Danys Glad to see you!</h1>
+        <h1
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1000"
+          class="txt-1 order-0 pd-0 mrg-0 mbl-to-hide">I’m Danys Glad to see you!</h1>
         <h1 class="txt-1-dsktp order-0 pd-0 mrg-0 dsktp-to-hide dsktp-to-show h1-animation">I’m Danys <br>
           Glad to see you!</h1>
-        <p class="txt-2-dsktp order-1 pd-0 mrg-0 txt-j">I’m a software developer! I can help you build
+        <p 
+          data-aos="fade-right"
+          data-aos-duration="1000"
+         
+          class="txt-2-dsktp order-1 pd-0 mrg-0 txt-j">I’m a software developer! I can help you build
           a product , feature or website Look through
           some of my work and experience! If you
           like what you see and have a project you need
           coded, don’t hestiate to contact me.
         </p>
-        <div class="txt-3 order-2">LET’S CONNECT</div>
-        <ul class="scl-icons order-3 mrg-0 pd-0">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="txt-3 order-2">LET’S CONNECT</div>
+        <ul data-aos="fade-up" data-aos-duration="1000" class="scl-icons order-3 mrg-0 pd-0">
           <li><a href="https://twitter.com/Danys_Linares" target="_blank" rel="noreferrer noopener"><img src="img/twitter.svg" alt="twitter"></a></li>
           <li><a href="https://www.linkedin.com/in/danys-linares/" target="_blank" rel="noreferrer noopener"><img src="img/Linkedinicon.svg" alt="linkedin"></a></li>
           <li><a href="https://medium.com/@danlinmoy" target="_blank" rel="noreferrer noopener" ><img src="img/medium.svg" alt="medium"></a></li>
@@ -49,23 +64,31 @@
       </div>
     </section>
   </div>
+
   <div class="works" id="portfolio">
 
   </div>
+
   <div id="popUp">
     
   </div>
 
 
-  <section class="about" id="About-my-self">
-    <div class="top pd-0">
+  <section class="about" id="About-my-self" >
+    <div
+      class="top pd-0" 
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
       <h2 class="txt-1 mrg-0 pd-0 about-tlt">About<br>
         Myself</h2>
       <p class="txt-2 mrg-0 pd-0">Hello I’m a software developer! I can help you build a product , feature or website
         Look through some of my work and experience! If you like what you see and have a project you need coded, don’t
         hestiate to contact me.</p>
       <h2 class="txt-3 mrg-0 pd-0">LET’S CONNECT</h2>
-      <ul class="scl-icons mrg-0 pd-0">
+      <ul
+       class="scl-icons mrg-0 pd-0"
+       >
         <li><a href="#"><img src="img/github.svg" alt="github"></a></li>
         <li><a href="#"><img src="img/Linkedinicon.svg" alt="linkedin"></a></li>
         <li><a href="#"><img src="img/angelist.svg" alt="angelist"></a></li>
@@ -74,52 +97,112 @@
       </ul>
       <button type="submit" class="mobile-btn mobile-btn-txt ">Get my Resume</button>
     </div>
-    <div class="skill">
+    <div class="skill"
+         data-aos="flip-right"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="1000">
       <ul class="list-stl pd-0 skill-lst-mrg">
         <li>
-          <div class="frame-7">
+          <div class="frame-7" id="lng">
             <span class="skill-txt">Languages</span>
-            <img src="img/Normal-Button/Tertiary/Drop-arrow.png" alt="drop arrow">
+            <img  id="lng-darrow" src="img/Normal-Button/Tertiary/Drop-arrow.png" alt="drop arrow">
+            <img id="lng-rarrow" class="hide-item" src="img/Normal-Button/Tertiary/right-arrow.png" alt="right arrow">
           </div>
-          <ul class=" lng-list list-stl mgr-0">
+          <ul id="lg-list" class="lng-list list-stl mgr-0">
             <li class="frame-9">
               <img src="img/js-Ellipse.png" alt="javascript image">
               <span class="lng-txt pd-0 mrg-0"> JavaSript</span>
             </li>
             <li class="frame-9">
-              <img src="img/html-Ellipse.png" alt="htm image">
+              <img src="img/html-Ellipse.png" alt="html image">
               <span class="lng-txt pd-0 mrg-0">HTML</span>
             </li>
             <li class="frame-9">
               <img src="img/css-Ellipse.png" alt="css image">
               <span class="lng-txt pd-0 mrg-0">CSS</span>
             </li>
+            <li class="frame-9">
+              <img class="frame-9-img" src="img/ruby-ellipse.png" alt="javascript image">
+              <span class="lng-txt pd-0 mrg-0"> Ruby</span>
+            </li>
+            <li class="frame-9">
+              <img class="img-size" src="https://user-images.githubusercontent.com/25181517/117208740-bfb78400-adf5-11eb-97bb-09072b6bedfc.png" alt="PostgreSQL">
+              <span class="lng-txt pd-0 mrg-0">PostgreSQL</span>            </li>
           </ul>
         </li>
-        <li>
+        <li class="separator"></li>
+        <li>        
           <div class="frame-7">
             <span class="skill-txt">Frameworks</span>
-            <img src="img/Normal-Button/Tertiary/right-arrow.png" alt="right arrow">
+            <img id="fwrk-d-arrow" class="hide-item" src="img/Normal-Button/Tertiary/Drop-arrow.png" alt="drop arrow">
+            <img id="fwrk-r-arrow"  src="img/Normal-Button/Tertiary/right-arrow.png" alt="right arrow">
           </div>
+          <ul id="fwrk-list" class="lng-list hide-skills list-stl mgr-0">
+            <li class="frame-9">
+              <img class="img-size" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap image">
+              <span class="lng-txt pd-0 mrg-0"> BootStrap</span>
+            </li>
+            <li class="frame-9">
+              <img class="img-size" src="https://user-images.githubusercontent.com/25181517/192603748-3ac17112-3653-4257-80da-a57334b11411.png" alt="rails image">
+              <span class="lng-txt pd-0 mrg-0">Rails</span>
+            </li>
+            <li class="frame-9">
+              <img class="img-size" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="css image">
+              <span class="lng-txt pd-0 mrg-0">React</span>
+            </li>
+            <li class="frame-9">
+              <img class="img-size" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png" alt="tailwind image">
+              <span class="lng-txt pd-0 mrg-0">Tailwind</span>
+            </li>
+          </ul>
         </li>
         <li class="separator"></li>
         <li>
           <div class="frame-7">
             <span class="skill-txt">Skills</span>
-            <img src="img/Normal-Button/Tertiary/right-arrow.png" alt="right arrow">
+            <img id="skill-d-arrow" class="hide-item" src="img/Normal-Button/Tertiary/Drop-arrow.png" alt="drop arrow">
+            <img id="skill-r-arrow" src="img/Normal-Button/Tertiary/right-arrow.png" alt="right arrow">
           </div>
+          <ul id="skill-list" class="lng-list hide-skills list-stl mgr-0">
+            <li class="frame-9">
+              <img class="img-size" src="img/problemsolving.png" alt="Problem solving image">
+              <span class="lng-txt pd-0 mrg-0"> Problem Solving</span>
+            </li>
+            <li class="frame-9">
+              <img class="img-size" src="img/communication.png" alt="Communication image">
+              <span class="lng-txt pd-0 mrg-0">Communication</span>
+            </li>
+            <li class="frame-9">
+              <img class="img-size" src="img/lupa.png" alt="Research img">
+              <span class="lng-txt pd-0 mrg-0">Research</span>
+            </li>
+            <li class="frame-9">
+              <img class="img-size" src="img/teamwork.png" alt="javascript image">
+              <span class="lng-txt pd-0 mrg-0"> Tearwork</span>
+            </li>
+          </ul>
         </li>
         <li class="separator"></li>
       </ul>
     </div>
   </section>
-  <section class="contact-me overflow" id="Contact-Section">
-    <div class="contact-me-bg">
+  <section class="contact-me overflow" id="Contact-Section"
+    data-aos="fade-in"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000">
+    <div class="contact-me-bg"
+    data-aos="fade-up"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000">
       <div class="contact-me-container">
         <h2 class="contact-me-title">Contact me</h2>
         <p class="contact-me-paragraph dsktp-pd">If you have an application you are interested in developing, a feature
           that you need built or a project that needs coding. I’d love to help with it</p>
-        <form action="https://formspree.io/f/xnqwkwnk" method="post" class="contact-me-form" id="form">
+        <form 
+        action="https://formspree.io/f/xnqwkwnk" 
+        method="post" 
+        class="contact-me-form"
+        id="form">
           <label for="name-input"></label>
           <input type="text" name="name" id="name-input" maxlength="30" class="input" placeholder="Full name" required>
           <label for="email-input"></label>
@@ -146,6 +229,10 @@
     </ul>
   </div>
   <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
