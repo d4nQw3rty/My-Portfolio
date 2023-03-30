@@ -193,8 +193,12 @@ skillDownArrow.addEventListener('click', () => {
   skillList.classList.add('hide-skills');
 });
 
-
-
+const formDefault = JSON.parse(localStorage.getItem('Contact'));
+if (formDefault != null) {
+  nameInput.value = formDefault.name;
+  emailInput.value = formDefault.mail;
+  textInput.value = formDefault.message;
+}
 
 formCheck.addEventListener('submit', (e) => {
   const email = emailInput.value;
@@ -210,6 +214,12 @@ formCheck.addEventListener('submit', (e) => {
   return false;
 });
 
+formCheck.addEventListener('input', () => {
+  const name = nameInput.value;
+  const mail = emailInput.value;
+  const message = textInput.value;
+  localStorage.setItem('Contact', JSON.stringify({ name, mail, message }));
+});
 
 const cards = document.querySelector('.works');
 

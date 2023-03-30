@@ -1034,7 +1034,6 @@ button {
   #headline {
     display: flex;
     flex-direction: column;
-    width: -webkit-fill-available;
     margin-left: 2.55%;
     margin-right: 0.6%;
     align-items: flex-start;
