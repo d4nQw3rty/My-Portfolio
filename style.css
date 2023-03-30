@@ -578,7 +578,7 @@ ul.scl-icons li:hover img {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 28px;
 
   /* or 140% */
@@ -588,7 +588,7 @@ ul.scl-icons li:hover img {
 
   /* Primary/B50 */
 
-  color: #ebebff;
+  color: #fff;
 }
 
 .contact-me-form {

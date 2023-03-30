@@ -235,20 +235,20 @@ const skills = (arr) => {
 projectInfo.forEach((item) => {
   cards.innerHTML += `<div data-aos-duration="1000" data-aos="zoom-in" class="card order-${item.id - 1} pd-0 mrg-0" id=${item.id}>
     <div class="block-img order-0 dsktp-order-${item.orderA}">
-      <img src=${item.mImg} class="mbl-to-hide img-new" alt="project 1 image" >
-      <img src=${item.dImg} class="dsktp-to-hide dsktp-crd-img" alt="project 1 desktop image">
+      <img src=${item.mImg} class="mbl-to-hide img-new" alt="image that display a of the project photo" >
+      <img src=${item.dImg} class="dsktp-to-hide dsktp-crd-img" alt="image that display a of the project photo">
     </div>
     <div class="block-txt order-1 pd-0 mrg-0 dsktp-order-${item.orderB}">
       <div class="primary-txt order-0">
-        <h2 class="pd-0 mrg-0 txt-4 tx mbl-to-hide">${item.title1}</h2>
-        <h2 class="pd-0 mrg-0 txt-4-dsktp dsktp-to-hide dsktp-to-show">${item.title2}</h2>
+        <h1 class="pd-0 mrg-0 txt-4 tx mbl-to-hide">${item.title1}</h1>
+        <h1 class="pd-0 mrg-0 txt-4-dsktp dsktp-to-hide dsktp-to-show">${item.title2}</h1>
         <ul class="list-stl pd-0 flx-rw mrg-0">
           <li class="txt-5 mbl-to-hide">${item.client1}</li>
           <li class="txt-5-dsktp dsktp-to-hide dsktp-to-show">${item.client2}</li>
-          <li><img src="img/Counter.png" alt="Separator image"></li>
+          <li><img src="img/Counter.png" alt="A dot image to separate elements"></li>
           <li class="txt-6 txt-6-dsktp mbl-to-hide">${item.position1}</li>
           <li class="txt-6-dsktp dsktp-to-hide dsktp-to-show">${item.position2}</li>
-          <li><img src="img/Counter.png" alt="Separator image"></li>
+          <li><img src="img/Counter.png" alt="A dot image to separate elements"></li>
           <li class="txt-6 txt-6-dsktp mbl-to-hide">${item.year1}</li>
           <li class="txt-6-dsktp dsktp-to-hide dsktp-to-show">${item.year2}</li>
         </ul>
@@ -288,10 +288,10 @@ function popUpOpen(id) {
           <ul class="list-stl pd-0 flx-rw mrg-0">
             <li class="txt-5 mbl-to-hide">${item.client1}</li>
             <li class="txt-5-dsktp dsktp-to-hide dsktp-to-show">${item.client2}</li>
-            <li><img src="img/Counter.png" alt="Separator image"></li>
+            <li><img src="img/Counter.png" alt="A dot image to separate elements"></li>
             <li class="txt-6 txt-6-dsktp mbl-to-hide">${item.position1}</li>
             <li class="txt-6-dsktp dsktp-to-hide dsktp-to-show">${item.position2}</li>
-            <li><img src="img/Counter.png" alt="Separator image"></li>
+            <li><img src="img/Counter.png" alt="A dot image to separate elements"></li>
             <li class="txt-6 txt-6-dsktp mbl-to-hide">${item.year1}</li>
             <li class="txt-6-dsktp dsktp-to-hide dsktp-to-show">${item.year2}</li>
           </ul>
