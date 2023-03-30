@@ -17,8 +17,8 @@ for (let i = 0; i < closeMenu.length; i += 1) {
 const projectInfo = [
   {
     id: 1,
-    mImg: 'img/hotel.png',
-    dImg: 'img/hotel.png',
+    mImg: 'img/room-hotel.jpg',
+    dImg: 'img/hotel-room-2.jpg',
     orderA: 0,
     orderB: 1,
     title1: 'Hotel Booking App',
@@ -47,8 +47,8 @@ const projectInfo = [
   },
   {
     id: 2,
-    mImg: 'img/country.png',
-    dImg: 'img/country.png',
+    mImg: 'img/countries.jpg',
+    dImg: 'img/countries-d.jpg',
     orderA: 1,
     orderB: 0,
     title1: 'Countries Stats',
@@ -74,8 +74,8 @@ const projectInfo = [
   },
   {
     id: 3,
-    mImg: 'img/space.png',
-    dImg: 'img/space.png',
+    mImg: 'img/rocket.jpg',
+    dImg: 'img/dragon.jpg',
     orderA: 0,
     orderB: 1,
     title1: 'Space Traveler\'s Hub',
@@ -109,7 +109,7 @@ const projectInfo = [
   },
   {
     id: 4,
-    mImg: 'img/summit.png',
+    mImg: 'img/meeting.jpg',
     dImg: 'img/summit.png',
     orderA: 1,
     orderB: 0,
