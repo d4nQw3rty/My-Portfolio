@@ -331,4 +331,3 @@ function popUpOpen(id) {
 }
 
 const displayPopUp = document.getElementsByClassName('.displayModal');
-console.log(displayPopUp, popUpOpen, popUpCloser, closePopUp);
