@@ -17,6 +17,30 @@ for (let i = 0; i < closeMenu.length; i += 1) {
 const projectInfo = [
   {
     id: 1,
+    mImg: 'img/comunity-app_p.png',
+    dImg: 'img/comunity_appd.jpg',
+    orderA: 0,
+    orderB: 1,
+    title1: 'Gestión Comunitaria',
+    title2: 'Gestión Comunitaria',
+    client1: 'Community',
+    client2: 'Community',
+    position1: 'Full Stack Dev',
+    position2: 'Full Stack Dev',
+    year1: '2023',
+    year2: '2023',
+    p1: 'A robust and user-friendly solution, for a comunity members data management.',
+    p2: 'A robust and user-friendly solution, featuring an elegant design, to seamlessly manage all aspects of hotel service bookings.A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    p3: `A rails-based application has been thoughtfully designed to assist communities in effectively managing resident information, registering families, and maintaining pertinent data regarding resource allocation and human resources.`,
+    p4: `A rails-based application has been thoughtfully designed to assist communities in effectively managing resident information, registering families, and maintaining pertinent data regarding resource allocation and human resources.`,
+    modal1: '#',
+    source: 'https://github.com/d4nQw3rty/gestion_comunitaria/tree/app_modals',
+    live: '#',
+    skills: ['html', 'css', 'JavaScript', 'ruby', 'rails', 'git', 'github'],
+
+  },
+  {
+    id: 2,
     mImg: 'img/room-hotel.jpg',
     dImg: 'img/hotel-room-2.jpg',
     orderA: 0,
@@ -46,7 +70,7 @@ const projectInfo = [
 
   },
   {
-    id: 2,
+    id: 3,
     mImg: 'img/countries.jpg',
     dImg: 'img/countries-d.jpg',
     orderA: 1,
@@ -73,7 +97,7 @@ const projectInfo = [
     skills: ['html', 'css', 'JavaScript', 'react', 'git', 'github'],
   },
   {
-    id: 3,
+    id: 4,
     mImg: 'img/rocket.jpg',
     dImg: 'img/dragon.jpg',
     orderA: 0,
@@ -108,7 +132,7 @@ const projectInfo = [
 
   },
   {
-    id: 4,
+    id: 5,
     mImg: 'img/meeting.jpg',
     dImg: 'img/summit.png',
     orderA: 1,
