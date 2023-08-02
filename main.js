@@ -16,6 +16,30 @@ for (let i = 0; i < closeMenu.length; i += 1) {
 
 const projectInfo = [
   {
+    id: 6,
+    mImg: 'img/pokedex_mobile.png',
+    dImg: 'img/pokedex_desktop.png',
+    orderA: 0,
+    orderB: 1,
+    title1: 'Pokedex Web App',
+    title2: 'Pokedex Web App',
+    client1: 'Personal Project',
+    client2: 'Personal Project',
+    position1: 'Full Stack Dev',
+    position2: 'Full Stack Dev',
+    year1: '2023',
+    year2: '2023',
+    p1: `A rails-based application has been thoughtfully designed display a main page that shows info about pokemon news and web page promotions, a pokedex section to display all known pokemon's info, and a contact section to send stay in touch with web page adminstrator`,
+    p2: `A rails-based application has been thoughtfully designed display a main page that shows info about pokemon news and web page promotions, a pokedex section to display all known pokemon's info, and a contact section to send stay in touch with web page adminstrator`,
+    p3: `A rails-based application has been thoughtfully designed display a main page that shows info about pokemon news and web page promotions, a pokedex section to display all known pokemon's info, and a contact section to send stay in touch with web page adminstrator`,
+    p4: `A rails-based application has been thoughtfully designed display a main page that shows info about pokemon news and web page promotions, a pokedex section to display all known pokemon's info, and a contact section to send stay in touch with web page adminstrator`,
+    modal1: '#',
+    source: 'https://github.com/d4nQw3rty/rails_pokedex',
+    live: 'https://pokedex-mowr.onrender.com/',
+    skills: ['html', 'css', 'JavaScript', 'ruby', 'rails 7', 'git', 'github', 'bootstrap 5'],
+
+  },
+  {
     id: 1,
     mImg: 'img/comunity-app_p.png',
     dImg: 'img/comunity_appd.jpg',
